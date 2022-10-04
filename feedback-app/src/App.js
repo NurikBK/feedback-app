@@ -6,7 +6,7 @@ function App() {
 
   return (
     <>
-      <Header />
+      <Header text="Hello world"/>
       <div className="container">
         <h1> {title} </h1>
         <p> {body} </p>
