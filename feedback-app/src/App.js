@@ -1,4 +1,5 @@
 import Header from './components/Header';
+import FeedbackItem from './components/FeedbackItem';
 
 function App() {
   const title = 'Blog Post';
@@ -8,8 +9,7 @@ function App() {
     <>
       <Header text="true" />
       <div className="container">
-        <h1> {title} </h1>
-        <p> {body} </p>
+        <FeedbackItem />
       </div>
     </>
   );
